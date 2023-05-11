@@ -19,7 +19,7 @@ body{
   position: absolute;
   top: 40px;
   font-family: 'Zeyada';
-  font-size: 50px;
+  font-size: 60px;
   color: rgb(0,0,100);
   opacity: 0.75;
   user-select: none;
@@ -51,7 +51,7 @@ body{
   padding: 10px;
 }
 .paper.image p {
-  font-size: 30px;
+  font-size: 35px;
 }
 
 p {
@@ -59,7 +59,7 @@ p {
 }
 
 img {
-  max-height: 400px;
+  max-height: 450px;
   width: 100%;
   user-select: none;
   border-radius: 8px;
@@ -79,7 +79,7 @@ box-shadow: 1px 1px 50px -16px rgba(0,0,100,1);
   position: absolute;
   top: 0;
   left: 0;
-  background-size: 150px;
+  background-size: 180px;
   background-position: center center;
   background-repeat: no-repeat;
   opacity: 0.6;
@@ -87,7 +87,7 @@ box-shadow: 1px 1px 50px -16px rgba(0,0,100,1);
 
 p {
   font-family: 'Zeyada';
-  font-size: 50px;
+  font-size: 60px;
   color: rgb(0,0,100);
   opacity: 0.75;
   user-select: none;
