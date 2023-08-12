@@ -31,7 +31,7 @@ body{
   background-size: 500px;
   background-position: center center;
   padding: 20px 100px;
-/*  min-width: 800px; */
+ /* min-width: 800px; */
   
   transform: rotateZ(-5deg);
   box-shadow: 1px 15px 20px 0px rgba(0,0,0,0.5);
@@ -51,7 +51,7 @@ body{
   padding: 10px;
 }
 .paper.image p {
-  font-size: 35px;
+  font-size: 30px;
 }
 
 p {
@@ -59,7 +59,7 @@ p {
 }
 
 img {
-  max-height: 450px;
+  max-height: 350px;
   width: 100%;
   user-select: none;
   border-radius: 8px;
@@ -79,15 +79,19 @@ box-shadow: 1px 1px 50px -16px rgba(0,0,100,1);
   position: absolute;
   top: 0;
   left: 0;
-  background-size: 180px;
+  background-size: 150px;
   background-position: center center;
   background-repeat: no-repeat;
   opacity: 0.6;
 }
 
+.paper:nth-of-type(3n) {
+  background-position: left top;
+}
+
 p {
   font-family: 'Zeyada';
-  font-size: 60px;
+  font-size: 50px;
   color: rgb(0,0,100);
   opacity: 0.75;
   user-select: none;
